@@ -2,5 +2,6 @@
 //  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-#import <HandTracker/HandTracker.h>
+//#import <HandTracker/HandTracker.h>
+#import <HumanTracker/FaceTracker.h>
 //#import <MyFramework/ObjcClass.h>
