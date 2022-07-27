@@ -14,8 +14,8 @@
 		37EEA4162435143700750CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EEA4152435143700750CDB /* Assets.xcassets */; };
 		37EEA4192435143700750CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EEA4172435143700750CDB /* LaunchScreen.storyboard */; };
 		37F8488E243515D80078042B /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8488D243515D80078042B /* Camera.swift */; };
-		7B1B37E4288EAB93008CA5FB /* HumanTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1B37E2288EAB8D008CA5FB /* HumanTracker.framework */; };
-		7B1B37E5288EAB93008CA5FB /* HumanTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1B37E2288EAB8D008CA5FB /* HumanTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B1B37EC288EAE59008CA5FB /* HumanTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1B37EA288EAE52008CA5FB /* HumanTracker.framework */; };
+		7B1B37ED288EAE59008CA5FB /* HumanTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1B37EA288EAE52008CA5FB /* HumanTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7B1B37E5288EAB93008CA5FB /* HumanTracker.framework in Embed Frameworks */,
+				7B1B37ED288EAE59008CA5FB /* HumanTracker.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +43,7 @@
 		37EEA41A2435143700750CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37F84889243515600078042B /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		37F8488D243515D80078042B /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
-		7B1B37E2288EAB8D008CA5FB /* HumanTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HumanTracker.framework; sourceTree = "<group>"; };
+		7B1B37EA288EAE52008CA5FB /* HumanTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HumanTracker.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B1B37E4288EAB93008CA5FB /* HumanTracker.framework in Frameworks */,
+				7B1B37EC288EAE59008CA5FB /* HumanTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 		37F84884243515500078042B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B1B37E2288EAB8D008CA5FB /* HumanTracker.framework */,
+				7B1B37EA288EAE52008CA5FB /* HumanTracker.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
